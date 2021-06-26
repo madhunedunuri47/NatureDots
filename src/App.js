@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Result from './pages/Result';
-import Bargraph from './pages/Bargraph';
+
 
 
 const App = () => {
@@ -41,7 +41,7 @@ const App = () => {
       </select>
      
       <Result id={selected} />
-      <Bargraph id={selected} />
+     
     </div>
   );
 };
